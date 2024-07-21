@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate GAV</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Calculate the GAV</h1>
+    <div id="purchaseContainer">
+        <div class="purchase">
+            <label>Purchasing moment 1:</label>
+            <label>Amount of stocks</label>
+            <input type="number" class="shares" required>
+            <label>Price per share</label>
+            <input type="number" class="price" step="0.01" required>
+        </div>
+    </div>
+    <button class="add" onclick="addPurchase()">Add buying moment</button>
+    <button class="reset" onclick="resetForm()">Clear all</button>
+    <button class="calculate" onclick="calculateGAV()">Calculate</button>
+    <div id="results">
+        Your GAV is: <span id="gav"></span>
+    </div>
+</div>
+
+    <script src="app.js">
+        
+    </script>
+</body>
+</html>
