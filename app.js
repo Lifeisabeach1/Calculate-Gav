@@ -41,6 +41,6 @@ const calculateGAV = () => {
         }
     }
 
-    const gav = totalShares ? (totalCost / totalShares).toFixed(2) : '–';
+    const gav = totalShares ? (totalCost / totalShares).toFixed(2) : '';
     document.getElementById('gav').innerText = gav;
 }
