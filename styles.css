@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(240, 213, 213);
+    background-image: url("stocks.avif");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.purchase {
+    margin-bottom: 10px;
+}
+.purchase label {
+    display: block;
+    margin-bottom: 5px;
+}
+.purchase input {
+    margin-bottom: 10px;
+    width: 100px;
+}
+#results {
+    margin-top: 20px;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(50, 50, 73);
+    border: 3px solid rgb(240, 213, 213);
+    box-sizing: content-box;
+    height: 100%;
+    margin: auto;
+    
+
+}
+
+.add, .reset, .calculate, .shares, .price {
+    border-radius: 20px;
+    padding: 7px;
+    background-color: rgb(122, 223, 122);
+}
+
+
+
