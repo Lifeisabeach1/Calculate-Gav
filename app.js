@@ -1,6 +1,6 @@
 const addPurchase = () => {
     const purchaseContainer = document.querySelector('#purchaseContainer');
-    const purchaseCount = purchaseContainer.querySelector('.purchase').length + 1;
+    const purchaseCount = purchaseContainer.querySelectorAll('.purchase').length + 1;
     const newPurchase = document.createElement('div');
     newPurchase.classList.add('purchase');
     newPurchase.innerHTML = `
